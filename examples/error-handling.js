@@ -10,8 +10,8 @@ bot.use(async (ctx, next) => {
   }
 });
 
-bot.on(async (ctx) => {
-  await ctx.reply('Hello, world!');
+bot.on( (ctx) => {
+  actx.reply('Hello, world!');
 });
 
 bot.startPolling((err) => {
